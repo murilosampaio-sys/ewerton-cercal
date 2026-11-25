@@ -15,8 +15,12 @@
         <p>O professor mais divertido e capacitado do SESI SENAI</p>
         <nav>
             <a href="#sobre">Sobre</a>
-            <a href="#frases">Frases</a>
-            <a href="#curiosidades">Curiosidades</a>
+            <a href="#Pesquisas e Atuação Interdisciplinar">Pesquisas e Atuação Interdisciplinar</a>
+            <a href="#Frases Icônicas">Frases Icônicas</a>
+            <a href="#Curiosidades">Curiosidades</a>
+            <a href="#Contato">Contato</a>
+            <a href="#Avalie o Professor">Avalie o Professor</a>
+
         </nav>
     </header>
 
@@ -31,6 +35,8 @@
                 <li>Licenciado em História pela mesma instituição (Univille).</li>
                 <li>Graduado em Análise e Desenvolvimento de Sistemas pelo Centro de Ciências Tecnológicas da
                     Universidade do Estado de Santa Catarina (UDESC Joinville).</li>
+                <li>Atualmente, é professor Tecnologia no SESI SENAI Joinville, onde leciona disciplinas
+                    relacionadas à Tecnologia e Humanidades Digitais.</li>
             </ol>
         </section>
 
@@ -117,11 +123,24 @@
             <h2>Contato</h2>
             <p>Para entrar em contato com o professor Ewerton Cercal, você pode enviar um e-mail para:</p>
             <a href="mailto:ewerton.cercal@univille.br">ewerton.cercal@univille.br</a>
-            
+
+        </section>
+        <section id="avaliacao">
+            <h2>Avalie o Professor</h2>
+
+            <form id="form-nota">
+                <label for="nota">Dê uma nota de 0 a 10:</label>
+                <input type="number" id="nota" name="nota" min="0" max="10" required>
+
+                <button type="submit">Enviar Nota</button>
+            </form>
+
+            <!-- Espaço para mostrar uma resposta com JavaScript depois -->
+            <p id="mensagem-resultado"></p>
         </section>
     </main>
 
-    <footer>
+    <footer id="rodapé">
         <p>Desenvolvido para a atividade de Desenvolvimento Web • SESI SENAI</p>
 
     </footer>
